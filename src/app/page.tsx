@@ -1,15 +1,16 @@
 import { Header } from '@/stories/Header'
-import Image from 'next/image'
 import Footer from './components/Footer'
-import GradientBackground from './components/GradientBackground'
+import Hero from './components/Hero'
+import Tools from './components/Tools'
 
 export default function Home() {
   return (
-    <main className='grid h-[100vh] text-center'>
+    <main className='grid text-center'>
+      <section className='h-[100vh]'>
       <Header user={{ name: 'Igor Nogueira' }} />
-      <GradientBackground text={['Front.', 'End.','Developer.']}/>
-      <GradientBackground text={['Front.', 'End.','Developer.']}/>
-      <GradientBackground text={['Front.', 'End.','Developer.']}/>
+      <Hero />
+      </section>
+      <Tools />
       <Footer />
     </main>
   )

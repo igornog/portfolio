@@ -8,7 +8,7 @@ const getSizeClasses = (size: string) => {
       return 'px-4 py-2.5';
     }
     case 'large': {
-      return 'px-6 py-3';
+      return 'px-12 py-4';
     }
     default: {
       return 'px-5 py-2.5';
@@ -18,8 +18,8 @@ const getSizeClasses = (size: string) => {
 
 const getModeClasses = (isPrimary: boolean) =>
   isPrimary
-    ? 'text-white bg-pink-600 border-pink-600'
-    : 'text-slate-700 bg-white border-white-700';
+    ? 'text-white bg-blue-600 border-none'
+    : 'text-black bg-white border-none';
 
 const BASE_BUTTON_CLASSES =
   'cursor-pointer rounded-full border-2 font-body font-bold leading-none inline-block';

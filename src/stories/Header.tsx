@@ -12,14 +12,10 @@ interface HeaderProps {
 }
 
 export const Header = ({ user }: HeaderProps) => (
-  <header>
+  <header className='h-[20vh]'>
     <div className="flex items-start justify-between px-12 py-8">
       <div className='flex items-center gap-[10px]'>
         <Image className='rounded-[100px]' width={90} height={90} src={ProfilePic} alt={'profile-pic'} />
-      </div>
-      <div className='flex gap-[10px]'>
-        <Button size="large" primary={false} label="My Linkedin" />
-        <Button size="large" label="My Github" />
       </div>
     </div>
   </header>
