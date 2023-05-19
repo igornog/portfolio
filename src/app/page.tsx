@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <main className="grid h-[100vh] text-center">
       <Header user={{ name: 'Igor Nogueira' }} />
-      <GradientBackground text='Igor Nogueira'/>
-      <GradientBackground text='Igor Nogueira'/>
-      <GradientBackground text='Igor Nogueira'/>
+      <GradientBackground text={['Front.', 'End.','Developer.']}/>
+      <GradientBackground text={['Front.', 'End.','Developer.']}/>
+      <GradientBackground text={['Front.', 'End.','Developer.']}/>
       <Footer />
     </main>
   )

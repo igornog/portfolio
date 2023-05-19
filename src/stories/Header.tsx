@@ -13,10 +13,9 @@ interface HeaderProps {
 
 export const Header = ({ user }: HeaderProps) => (
   <header>
-    <div className="flex items-center justify-between px-6 py-6">
+    <div className="flex items-start justify-between px-12 py-8">
       <div className='flex items-center gap-[10px]'>
-        <Image className='rounded-[100px]' width={60} height={60} src={ProfilePic} alt={'profile-pic'} />
-        <h1 className='font-heading text-2xl'>{user?.name}</h1>
+        <Image className='rounded-[100px]' width={90} height={90} src={ProfilePic} alt={'profile-pic'} />
       </div>
       <div className='flex gap-[10px]'>
         <Button size="large" primary={false} label="My Linkedin" />
