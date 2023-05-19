@@ -19,10 +19,10 @@ const getSizeClasses = (size: string) => {
 const getModeClasses = (isPrimary: boolean) =>
   isPrimary
     ? 'text-white bg-pink-600 border-pink-600'
-    : 'text-slate-700 bg-transparent border-slate-700';
+    : 'text-slate-700 bg-white border-white-700';
 
 const BASE_BUTTON_CLASSES =
-  'cursor-pointer rounded-full border-2 font-bold leading-none inline-block';
+  'cursor-pointer rounded-full border-2 font-body font-bold leading-none inline-block';
 
 /**
  * Primary UI component for user interaction
