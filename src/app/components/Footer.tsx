@@ -2,9 +2,9 @@ import Image from 'next/image'
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col items-center w-full justify-between m-8">
-      <p className='m-4 font-heading font-bold'>Languages and Tools:</p>
-      <div className='flex gap-[10px] mb-16'>
+    <footer className="flex flex-col items-center justify-between m-8">
+      <p className='m-2 font-heading font-bold'>Languages and Tools:</p>
+      <div className='flex gap-[10px] mb-4'>
         <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
           <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="48" height="48" />
         </a>
@@ -45,7 +45,7 @@ export default function Footer() {
           <Image src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="48" height="48" />
         </a>
       </div>
-      Made with <Image
+      Made with: <Image
         className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
         src="/next.svg"
         alt="Next.js Logo"

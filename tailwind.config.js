@@ -45,11 +45,31 @@ module.exports = {
             opacity: 1,
           },
         },
+        textGradientAnimation: {
+          '0%': {
+            color: '',
+          },
+          '33%': {
+            color: 'transparent',
+          },
+          '50%': {
+            color: 'white',
+          },
+          '66%': {
+            color: 'white',
+          },
+          '100%': {
+            color: 'white',
+          },
+        }
       },
       animation: {
-        backgroundanimation1: 'backgroundanimation1 5s infinite',
-        backgroundanimation2: 'backgroundanimation2 5s infinite',
-        backgroundanimation3: 'backgroundanimation3 5s infinite',
+        backgroundanimation1: 'backgroundanimation1 6s infinite',
+        backgroundanimation2: 'backgroundanimation2 6s infinite',
+        backgroundanimation3: 'backgroundanimation3 6s infinite',
+        textGradientAnimation: 'textGradientAnimation 12s infinite 0s',
+        textGradientAnimation2: 'textGradientAnimation 12s infinite 4s',
+        textGradientAnimation3: 'textGradientAnimation 12s infinite 8s',
       },
     },
   },

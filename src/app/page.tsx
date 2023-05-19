@@ -8,6 +8,8 @@ export default function Home() {
     <main className="grid h-[100vh] text-center">
       <Header user={{ name: 'Igor Nogueira' }} />
       <GradientBackground text='Igor Nogueira'/>
+      <GradientBackground text='Igor Nogueira'/>
+      <GradientBackground text='Igor Nogueira'/>
       <Footer />
     </main>
   )
