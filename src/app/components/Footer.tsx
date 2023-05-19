@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Footer() {
   return (
     <footer className='flex flex-col items-center justify-between m-8'>
-      <p className='m-1 font-heading font-bold'>Languages and Tools:</p>
+      <p className='m-1 font-heading font-bold'>{'Languages and Tools:'}</p>
       <div className='flex gap-[10px] mb-1'>
         <a href='https://reactjs.org/' target='_blank' rel='noreferrer'>
           <Image src='https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg' alt='react' width='36' height='36' />
@@ -45,7 +45,7 @@ export default function Footer() {
           <Image src='https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg' alt='postman' width='36' height='36' />
         </a>
       </div>
-      Made with: <Image
+      {'Made with: '} <Image
         className='relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert'
         src='/next.svg'
         alt='Next.js Logo'
