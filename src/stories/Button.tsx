@@ -1,5 +1,5 @@
 // ./src/stories/Button.js
-
+import Image from 'next/image';
 import React, { useMemo } from 'react';
 
 const getSizeClasses = (size: string) => {
@@ -36,7 +36,9 @@ export const Button = ({ primary = true, size = '', label = '', ...props }) => {
   }, [primary, size]);
 
   return (
-    <button type="button" className={`${BASE_BUTTON_CLASSES} ${computedClasses}`} {...props}>
+    <button type="button" className={`${BASE_BUTTON_CLASSES} ${computedClasses} flex items-center gap-[10px]`} {...props}>
+      {props.icon && 
+      <Image src={props.icon} alt={props.label} width={24} height={24} />}
       {label}
     </button>
   );

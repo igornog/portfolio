@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Tools from './components/Tools'
 
 export default function Home() {
+  console.log('testtttt')
   return (
     <main className='grid text-center'>
       <section className='h-[100vh]'>
