@@ -13,10 +13,6 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-      fontFamily: {
-        body: ['Roboto', 'sans-serif'],
-        heading: ['Poppins', 'sans-serif'],
-      },
       keyframes: {
         backgroundanimation1: {
           '0%, 16.667%, to': {
@@ -48,6 +44,7 @@ module.exports = {
         textGradientAnimation: {
           '0%': {
             color: '',
+            opacity: 1,
           },
           '33%': {
             color: 'transparent',
@@ -56,20 +53,20 @@ module.exports = {
             color: 'white',
           },
           '66%': {
-            color: 'white',
+            color: '',
           },
           '100%': {
-            color: 'white',
+            color: '',
           },
-        }
+        },
       },
       animation: {
         backgroundanimation1: 'backgroundanimation1 6s infinite',
         backgroundanimation2: 'backgroundanimation2 6s infinite',
         backgroundanimation3: 'backgroundanimation3 6s infinite',
         textGradientAnimation: 'textGradientAnimation 8s infinite 0s',
-        textGradientAnimation2: 'textGradientAnimation 8s infinite 2s',
-        textGradientAnimation3: 'textGradientAnimation 8s infinite 6s',
+        textGradientAnimation2: 'textGradientAnimation 8s infinite 2750ms',
+        textGradientAnimation3: 'textGradientAnimation 8s infinite 5500ms',
       },
     },
   },
