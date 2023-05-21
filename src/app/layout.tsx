@@ -1,9 +1,9 @@
 import './globals.css'
-import { Poppins } from 'next/font/google'
+import { Poppins } from 'next/font/google';
 
-const poppins = Poppins({
-  weight: '500',
-  subsets: ['latin'],
+const poppinsFont = Poppins({
+  weight: ['500'],
+  subsets: ['latin']
 });
 
 export const metadata = {
@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={`${poppins.className} no-scrollbar`}>{children}</body>
+      <body className={`${poppinsFont.className} no-scrollbar`}>{children}</body>
     </html>
   )
 }

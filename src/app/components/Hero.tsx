@@ -14,9 +14,10 @@ export default function Footer() {
           <Button size="small" primary={false} label="Github" icon={githubIcon} />
         </a>
       </div>
+      <h1 className='text-[2rem]'>{'Igor Nogueira'}</h1>
       <GradientBackground text={['Front.', 'End.', 'Development.']} />
-      <GradientBackground text={['Front.', 'End.', 'Development.']} />
-      <GradientBackground text={['Front.', 'End.', 'Development.']} />
+      {/* <GradientBackground text={['Front.', 'End.', 'Development.']} /> */}
+      {/* <GradientBackground text={['Front.', 'End.', 'Development.']} /> */}
       <p className='absolute mb-[2vh] bottom-0'>scroll down</p>
     </section>
   )
