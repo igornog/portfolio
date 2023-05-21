@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-export default function Footer() {
+export default function Tools() {
   return (
     <section className="h-auto bg-white">
       <div className='grid text-center justify-center grid-cols-[repeat(3,1fr)] m-0 px-[10vw] py-[10vh] gap-[50px]'>
