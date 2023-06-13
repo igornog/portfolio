@@ -10,6 +10,12 @@ export default function Projects() {
         company={'Big Box Outlet Store'}
         image={'/bbos.png'}
         stack={'HTML5 / CSS3 / JavaScript / jQuery / Shopify'}
+        link={[
+          {
+            href: 'https://bigboxoutletstore.ca/',
+            label: 'Big Box Outlet Store - E-commerce'
+          }
+        ]}
       />
       <Project
         title={'Front End Developer Junior'}
@@ -22,6 +28,12 @@ export default function Projects() {
         company={'Sami'}
         image={'/sami.png'}
         stack={'JavaScript / TypeScript / React / Redux / RestAPI / SASS'}
+        link={[
+          {
+            href: 'https://www.samisaude.com.br/',
+            label: 'Sami Saúde - Healthcare platform'
+          }
+        ]}
       />
       <Project
         title={'Front End Developer Intermediate'}
@@ -34,6 +46,16 @@ export default function Projects() {
         company={'YJCollective'}
         image={'/yjc.png'}
         stack={'NextJS / TypeScript / TailwindCSS / React / RestAPI / Jest / React Testing Library / ZOD'}
+        link={[
+          {
+            href: 'https://alteam-portal-git-main-igornog.vercel.app/',
+            label: 'Alteam - Freelancing platform'
+          },
+          {
+            href: 'https://solo-sixty.vercel.app/login',
+            label: 'SoloSixty - Wellness platform'
+          }
+        ]}
       />
     </section>
   )
