@@ -3,9 +3,10 @@ import Image from 'next/image'
 export default function Tools() {
   return (
     <section className="h-auto bg-white">
-      <div className='grid text-center justify-center grid-cols-[repeat(4,1fr)] m-0 px-[10vw] py-[15vh] gap-[50px] [&>a]:transition ease-in-out [&>a:hover]:drop-shadow-md transition ease-in-out'>
+      <h1 className='text-center m-16 text-[3rem] text-black font-heading font-bold'>Stack</h1>
+      <div className='grid text-center justify-center grid-cols-[repeat(4,1fr)] m-0 px-[10vw] pb-[15vh] gap-[50px] [&>a]:transition ease-in-out [&>a:hover]:drop-shadow-md transition ease-in-out'>
         <a href='https://reactjs.org/' target='_blank' rel='noreferrer' className='flex place-content-center'>
-          <Image src='https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg' alt='react' width='96' height='96'/>
+          <Image src='https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg' alt='react' width='96' height='96' />
         </a>
         <a href='https://www.typescriptlang.org/' target='_blank' rel='noreferrer' className='flex place-content-center'>
           <Image src='https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg' alt='typescript' width='96' height='96' />

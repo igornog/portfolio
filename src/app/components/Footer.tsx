@@ -20,7 +20,7 @@ export default function Footer() {
       <a href='#page'>
         <p className='absolute right-12 flex flex-col items-center'>
           <Image src={arrowIcon} width={30} height={30} alt={'arrow'} className='rotate-180' />
-          scroll up
+          Top
         </p>
       </a>
 
