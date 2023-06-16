@@ -2,6 +2,7 @@ import Image from 'next/image'
 import githubIcon from '../../../public/github-icon.svg'
 import linkedinIcon from '../../../public/linkedin-icon.svg'
 import { Button } from '@/stories/Button'
+import arrowIcon from '../../../public/arrow.png'
 
 export default function Footer() {
   return (
@@ -15,6 +16,13 @@ export default function Footer() {
           <Button size="small" primary={false} label="Github" icon={githubIcon} />
         </a>
       </div>
+
+      <a href='#page'>
+        <p className='absolute right-12 flex flex-col items-center'>
+          <Image src={arrowIcon} width={30} height={30} alt={'arrow'} className='rotate-180' />
+          scroll up
+        </p>
+      </a>
 
       {'Made with'} <Image
         className='relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert'

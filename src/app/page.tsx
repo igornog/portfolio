@@ -6,7 +6,7 @@ import Projects from './components/Projects'
 
 export default function Home() {
   return (
-    <main className='grid text-center'>
+    <main id='page' className='grid text-center'>
       <section className='h-[100vh]'>
       <Header user={{ name: 'Igor Nogueira' }} />
       <Hero />
