@@ -31,7 +31,7 @@ export default function Projects() {
           },
           {
             href: 'https://www.loreal-paris.com.br/',
-            label: 'Loreal Paris Brasil'
+            label: `L'Oréal Paris Brasil`
           }
         ]}
       />
