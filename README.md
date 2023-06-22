@@ -1,3 +1,3 @@
 # PORTFOLIO (under construction)
 
-See it live: https://landing-page-portfolio-igornog.vercel.app/
+See it live: https://igornog-portfolio.vercel.app/
