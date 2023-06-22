@@ -14,14 +14,17 @@ export default function Tools() {
         <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript' target='_blank' rel='noreferrer' className='flex place-content-center'>
           <Image src='https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg' alt='javascript' width='96' height='96' />
         </a>
-        <a href='https://sass-lang.com' target='_blank' rel='noreferrer' className='flex place-content-center'>
-          <Image src='https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg' alt='sass' width='96' height='96' />
+        <a href='https://vuejs.org/' target='_blank' rel='noreferrer' className='flex place-content-center'>
+          <Image src='https://cdn.worldvectorlogo.com/logos/vue-js-1.svg' alt='vue' width='96' height='96' />
         </a>
         <a href='https://www.w3.org/html/' target='_blank' rel='noreferrer' className='flex place-content-center'>
           <Image src='https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg' alt='html5' width='96' height='96' />
         </a>
         <a href='https://www.w3schools.com/css/' target='_blank' rel='noreferrer' className='flex place-content-center'>
           <Image src='https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg' alt='css3' width='96' height='96' />
+        </a>
+        <a href='https://sass-lang.com' target='_blank' rel='noreferrer' className='flex place-content-center'>
+          <Image src='https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg' alt='sass' width='96' height='96' />
         </a>
         <a href='https://tailwindcss.com' target='_blank' rel='noreferrer' className='flex place-content-center'>
           <Image src='https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg' alt='tailwind' width='96' height='96' />
@@ -37,9 +40,6 @@ export default function Tools() {
         </a>
         <a href='https://react-redux.js.org/' target='_blank' rel='noreferrer' className='flex place-content-center'>
           <Image src='https://cdn.worldvectorlogo.com/logos/redux.svg' alt='redux' width='96' height='96' />
-        </a>
-        <a href='https://postman.com' target='_blank' rel='noreferrer' className='flex place-content-center'>
-          <Image src='https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg' alt='postman' width='96' height='96' />
         </a>
       </div>
 
