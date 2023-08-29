@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <main id='page' className='grid text-center'>
       <section className='h-[100vh]'>
-      <Header user={{ name: 'Igor Nogueira' }} />
-      <Hero />
+        <Header user={{ name: 'Igor Nogueira' }} />
+        <Hero />
       </section>
       <Tools />
       <Projects />

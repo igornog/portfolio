@@ -37,8 +37,8 @@ export const Button = ({ primary = true, size = '', label = '', ...props }) => {
 
   return (
     <button type="button" className={`${BASE_BUTTON_CLASSES} ${computedClasses} flex items-center gap-[5px]`} {...props}>
-      {props.icon && 
-      <Image src={props.icon} alt={`${props.label}`} width={24} height={24} />}
+      {props.icon &&
+        <Image src={props.icon} alt={`${props.label}`} width={24} height={24} />}
       {label}
     </button>
   );
