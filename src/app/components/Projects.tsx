@@ -1,5 +1,6 @@
 import { Project } from './Project'
 import Icon from '../utils/icons/Icon'
+import uniqueId from 'lodash/uniqueId';
 
 export default function Projects() {
   return (
@@ -12,11 +13,11 @@ export default function Projects() {
         image={'/bbos.png'}
         location={'Vancouver, BC, Canada'}
         stack={[
-          <Icon key={1} url={'https://www.w3.org/html/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg'} />,
-          <Icon key={2} url={'https://www.w3schools.com/css/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg'} />,
-          <Icon key={3} url={'https://developer.mozilla.org/en-US/docs/Web/JavaScript'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'} />,
-          <Icon key={4} url={'https://jquery.com/'} imageUrl={'https://cdn.iconscout.com/icon/free/png-512/free-jquery-8-1175153.png?f=avif&w=512'} />,
-          <Icon key={5} url={'https://shopify.dev/'} imageUrl={'https://img.icons8.com/?size=512&id=uSHYbs6PJfMT&format=png'} />,
+          <Icon key={uniqueId()} url={'https://www.w3.org/html/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg'} />,
+          <Icon key={uniqueId()} url={'https://www.w3schools.com/css/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg'} />,
+          <Icon key={uniqueId()} url={'https://developer.mozilla.org/en-US/docs/Web/JavaScript'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'} />,
+          <Icon key={uniqueId()} url={'https://jquery.com/'} imageUrl={'https://cdn.iconscout.com/icon/free/png-512/free-jquery-8-1175153.png?f=avif&w=512'} />,
+          <Icon key={uniqueId()} url={'https://shopify.dev/'} imageUrl={'https://img.icons8.com/?size=512&id=uSHYbs6PJfMT&format=png'} />,
         ]}
         links={[
           {
@@ -32,12 +33,12 @@ export default function Projects() {
         image={'/enext.png'}
         location={'São Paulo, SP, Brazil'}
         stack={[
-          <Icon key={1} url={'https://www.w3.org/html/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg'} />,
-          <Icon key={2} url={'https://www.w3schools.com/css/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg'} />,
-          <Icon key={3} url={'https://developer.mozilla.org/en-US/docs/Web/JavaScript'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'} />,
-          <Icon key={4} url={'https://jquery.com/'} imageUrl={'https://cdn.iconscout.com/icon/free/png-512/free-jquery-8-1175153.png?f=avif&w=512'} />,
-          <Icon key={5} url={'https://sass-lang.com'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg'} />,
-          <Icon key={6} url={'https://reactjs.org/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg'} />,
+          <Icon key={uniqueId()} url={'https://www.w3.org/html/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg'} />,
+          <Icon key={uniqueId()} url={'https://www.w3schools.com/css/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg'} />,
+          <Icon key={uniqueId()} url={'https://developer.mozilla.org/en-US/docs/Web/JavaScript'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'} />,
+          <Icon key={uniqueId()} url={'https://jquery.com/'} imageUrl={'https://cdn.iconscout.com/icon/free/png-512/free-jquery-8-1175153.png?f=avif&w=512'} />,
+          <Icon key={uniqueId()} url={'https://sass-lang.com'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg'} />,
+          <Icon key={uniqueId()} url={'https://reactjs.org/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg'} />,
         ]}
         links={[
           {
@@ -57,13 +58,13 @@ export default function Projects() {
         image={'/sami.png'}
         location={'São Paulo, SP, Brazil'}
         stack={[
-          <Icon key={1} url={'https://www.w3.org/html/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg'} />,
-          <Icon key={2} url={'https://www.w3schools.com/css/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg'} />,
-          <Icon key={3} url={'https://developer.mozilla.org/en-US/docs/Web/JavaScript'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'} />,
-          <Icon key={4} url={'https://www.typescriptlang.org/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg'} />,
-          <Icon key={5} url={'https://sass-lang.com'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg'} />,
-          <Icon key={6} url={'https://reactjs.org/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg'} />,
-          <Icon key={7} url={'https://react-redux.js.org/'} imageUrl={'https://cdn.worldvectorlogo.com/logos/redux.svg'} />,
+          <Icon key={uniqueId()} url={'https://www.w3.org/html/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg'} />,
+          <Icon key={uniqueId()} url={'https://www.w3schools.com/css/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg'} />,
+          <Icon key={uniqueId()} url={'https://developer.mozilla.org/en-US/docs/Web/JavaScript'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'} />,
+          <Icon key={uniqueId()} url={'https://www.typescriptlang.org/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg'} />,
+          <Icon key={uniqueId()} url={'https://sass-lang.com'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg'} />,
+          <Icon key={uniqueId()} url={'https://reactjs.org/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg'} />,
+          <Icon key={uniqueId()} url={'https://react-redux.js.org/'} imageUrl={'https://cdn.worldvectorlogo.com/logos/redux.svg'} />,
         ]}
         links={[
           {
@@ -79,14 +80,14 @@ export default function Projects() {
         image={'/intellecteu.png'}
         location={'Antwerp, Belgium'}
         stack={[
-          <Icon url={'https://www.w3.org/html/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg'} />,
-          <Icon url={'https://www.w3schools.com/css/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg'} />,
-          <Icon url={'https://developer.mozilla.org/en-US/docs/Web/JavaScript'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'} />,
-          <Icon url={'https://www.typescriptlang.org/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg'} />,
-          <Icon url={'https://sass-lang.com'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg'} />,
-          <Icon url={'https://reactjs.org/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg'} />,
-          <Icon url={'https://react-redux.js.org/'} imageUrl={'https://cdn.worldvectorlogo.com/logos/redux.svg'} />,
-          <Icon url={'https://www.figma.com/'} imageUrl={'https://www.vectorlogo.zone/logos/figma/figma-icon.svg'} />,
+          <Icon key={uniqueId()} url={'https://www.w3.org/html/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg'} />,
+          <Icon key={uniqueId()} url={'https://www.w3schools.com/css/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg'} />,
+          <Icon key={uniqueId()} url={'https://developer.mozilla.org/en-US/docs/Web/JavaScript'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'} />,
+          <Icon key={uniqueId()} url={'https://www.typescriptlang.org/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg'} />,
+          <Icon key={uniqueId()} url={'https://sass-lang.com'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg'} />,
+          <Icon key={uniqueId()} url={'https://reactjs.org/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg'} />,
+          <Icon key={uniqueId()} url={'https://react-redux.js.org/'} imageUrl={'https://cdn.worldvectorlogo.com/logos/redux.svg'} />,
+          <Icon key={uniqueId()} url={'https://www.figma.com/'} imageUrl={'https://www.vectorlogo.zone/logos/figma/figma-icon.svg'} />,
         ]}
       />
       <Project
@@ -96,16 +97,16 @@ export default function Projects() {
         image={'/yjc.png'}
         location={'London, UK'}
         stack={[
-          <Icon url={'https://www.w3.org/html/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg'} />,
-          <Icon url={'https://www.w3schools.com/css/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg'} />,
-          <Icon url={'https://developer.mozilla.org/en-US/docs/Web/JavaScript'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'} />,
-          <Icon url={'https://www.typescriptlang.org/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg'} />,
-          <Icon url={'https://sass-lang.com'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg'} />,
-          <Icon url={'https://reactjs.org/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg'} />,
-          <Icon url={'https://react-redux.js.org/'} imageUrl={'https://cdn.worldvectorlogo.com/logos/redux.svg'} />,
-          <Icon url={'https://jestjs.io'} imageUrl={'https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg'} />,
-          <Icon url={'https://tailwindcss.com'} imageUrl={'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg'} />,
-          <Icon url={'https://www.figma.com/'} imageUrl={'https://www.vectorlogo.zone/logos/figma/figma-icon.svg'} />,
+          <Icon key={uniqueId()} url={'https://www.w3.org/html/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg'} />,
+          <Icon key={uniqueId()} url={'https://www.w3schools.com/css/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg'} />,
+          <Icon key={uniqueId()} url={'https://developer.mozilla.org/en-US/docs/Web/JavaScript'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'} />,
+          <Icon key={uniqueId()} url={'https://www.typescriptlang.org/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg'} />,
+          <Icon key={uniqueId()} url={'https://sass-lang.com'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg'} />,
+          <Icon key={uniqueId()} url={'https://reactjs.org/'} imageUrl={'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg'} />,
+          <Icon key={uniqueId()} url={'https://react-redux.js.org/'} imageUrl={'https://cdn.worldvectorlogo.com/logos/redux.svg'} />,
+          <Icon key={uniqueId()} url={'https://jestjs.io'} imageUrl={'https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg'} />,
+          <Icon key={uniqueId()} url={'https://tailwindcss.com'} imageUrl={'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg'} />,
+          <Icon key={uniqueId()} url={'https://www.figma.com/'} imageUrl={'https://www.vectorlogo.zone/logos/figma/figma-icon.svg'} />,
         ]}
         links={[
           {
