@@ -5,7 +5,7 @@ import uniqueId from 'lodash/uniqueId';
 export default function Projects() {
   return (
     <section className="h-auto bg-black mt-12">
-      <h1 className='text-center text-[3rem] font-heading font-bold'>Experiences</h1>
+      <h1 className='text-center text-[3rem] font-heading font-bold'>Experience</h1>
       <Project
         title={'Web Developer Junior'}
         company={'Big Box Outlet Store'}
