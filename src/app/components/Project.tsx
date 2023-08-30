@@ -2,9 +2,15 @@ import { Button } from '@/stories/Button';
 import Image from 'next/image'
 import locationIcon from '../../../public/location-icon-white.png'
 import Icon from '../utils/icons/Icon';
+import IconList from './IconList';
 interface link {
   href: string;
   label: string;
+}
+
+interface Icon {
+  url: string;
+  imageUrl: string;
 }
 
 interface ProjectProps {
@@ -13,7 +19,7 @@ interface ProjectProps {
   companyUrl: string;
   image: string;
   location?: string;
-  stack?: React.ReactNode[];
+  stack: Icon[];
   links?: link[];
 }
 
@@ -24,18 +30,18 @@ export const Project = ({ title, company, companyUrl, image, location, stack, li
         <div className='flex flex-col gap-[20px] w-full'>
           <Image src={image} width={600} height={600} alt={`${company}`} />
           <div className='mt-4 mb-4 flex flex-col gap-[15px]'>
-          {links && links.map((link, index) => {
-            return (
-              <div key={index} className='flex flex-col gap-[10px] w-full'>
-                <div className={'flex items-baseline gap-[10px]'}>
-                  <p className='text-sm'>{link.label}:</p>
-                  <a href={link.href} target='_blank' rel='noreferrer' className='no-underline w-[fit-content] uppercase text-sm'>
-                    <Button size="medium" primary={false} label="See it live" />
-                  </a>
+            {links && links.map((link, index) => {
+              return (
+                <div key={index} className='flex flex-col gap-[10px] w-full'>
+                  <div className={'flex items-baseline gap-[10px]'}>
+                    <p className='text-sm'>{link.label}:</p>
+                    <a href={link.href} target='_blank' rel='noreferrer' className='no-underline w-[fit-content] uppercase text-sm'>
+                      <Button size="medium" primary={false} label="See it live" />
+                    </a>
+                  </div>
                 </div>
-              </div>
-            )
-          })}
+              )
+            })}
           </div>
         </div>
         <article className='justify-around-center flex flex-col items-start w-full ml-12 gap-[2rem]'>
@@ -52,10 +58,8 @@ export const Project = ({ title, company, companyUrl, image, location, stack, li
           </div>
           <div className='text-left w-full'>
             <p>Stack:</p>
-            <div className='flex gap-[10px] flex-wrap w-full max-w-[50%]'>
-              {stack && stack.map((item, index) => {
-                return item
-              })}
+            <div className='w-full'>
+              <IconList icons={stack} />
             </div>
           </div>
         </article>

@@ -1,5 +1,11 @@
 import Image from "next/image";
 
+interface IProps {
+  url: string;
+  imageUrl: string;
+  small?: boolean;
+}
+
 const Icon: React.FunctionComponent<IProps> = (
   props: IProps,
 ) => {
@@ -8,11 +14,6 @@ const Icon: React.FunctionComponent<IProps> = (
       <Image src={props.imageUrl} alt="link" width={`${props.small ? '20' : '40'}`} height={`${props.small ? '20' : '40'}`} />
     </a>
   )
-}
-interface IProps {
-  url: string;
-  imageUrl: string;
-  small?: boolean;
 }
 
 export default Icon
