@@ -57,7 +57,7 @@ export const Project = ({ title, company, companyUrl, image, location, stack, li
                 <div key={index} className='flex flex-col gap-[10px] w-full items-center'>
                   <div className={'flex flex-col gap-[10px] items-center'}>
                     <a href={link.href} target='_blank' rel='noreferrer' className='no-underline w-[fit-content] uppercase text-sm hover:[cursor-pointer]'>
-                      <Button size="large" primary={false} label={link.label}/>
+                      <Button className='min-w-[25vw] justify-center' size="large" primary={false} label={link.label}/>
                     </a>
                   </div>
                 </div>

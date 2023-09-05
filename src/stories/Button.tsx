@@ -27,13 +27,13 @@ const BASE_BUTTON_CLASSES =
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ primary = true, size = '', label = '', ...props }) => {
+export const Button = ({ primary = true, size = '', label = '', className = '', ...props }) => {
   const computedClasses = useMemo(() => {
     const modeClass = getModeClasses(primary);
     const sizeClass = getSizeClasses(size);
 
-    return [modeClass, sizeClass].join(' ');
-  }, [primary, size]);
+    return [modeClass, sizeClass, className].join(' ');
+  }, [primary, size, className]);
 
   return (
     <button type="button" className={`${BASE_BUTTON_CLASSES} ${computedClasses} flex items-center gap-[5px]`} {...props}>
