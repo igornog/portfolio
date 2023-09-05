@@ -29,20 +29,6 @@ export const Project = ({ title, company, companyUrl, image, location, stack, li
       <div className='flex justify-between w-full'>
         <div className='flex flex-col gap-[20px] w-full'>
           <Image src={image} width={600} height={600} alt={`${company}`} />
-          <div className='mt-4 mb-4 flex flex-col gap-[15px]'>
-            {links && links.map((link, index) => {
-              return (
-                <div key={index} className='flex flex-col gap-[10px] w-full'>
-                  <div className={'flex items-baseline gap-[10px]'}>
-                    <p className='text-sm'>{link.label}:</p>
-                    <a href={link.href} target='_blank' rel='noreferrer' className='no-underline w-[fit-content] uppercase text-sm'>
-                      <Button size="medium" primary={false} label="See it live" />
-                    </a>
-                  </div>
-                </div>
-              )
-            })}
-          </div>
         </div>
         <article className='justify-around-center flex flex-col items-start w-full ml-12 gap-[2rem]'>
           <div className='flex flex-col'>
@@ -64,6 +50,20 @@ export const Project = ({ title, company, companyUrl, image, location, stack, li
           </div>
         </article>
       </div>
+      <div className='mt-[7.5vh] flex flex-col gap-[15px]'>
+      {links && <p className='text-lg'>See it live:</p>}
+            {links && links.map((link, index) => {
+              return (
+                <div key={index} className='flex flex-col gap-[10px] w-full items-center'>
+                  <div className={'flex flex-col gap-[10px] items-center'}>
+                    <a href={link.href} target='_blank' rel='noreferrer' className='no-underline w-[fit-content] uppercase text-sm hover:[cursor-pointer]'>
+                      <Button size="large" primary={false} label={link.label}/>
+                    </a>
+                  </div>
+                </div>
+              )
+            })}
+          </div>
     </section>
   )
 }
