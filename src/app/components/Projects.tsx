@@ -114,12 +114,16 @@ export default function Projects() {
           ]}
           links={[
             {
-              href: 'https://alteam-portal-git-main-igornog.vercel.app/',
-              label: 'Alteam - Freelancing platform'
+              href: 'https://listing.alteam.io/',
+              label: 'Alteam - Freelancing platform (Listing App - Responsive)'
+            },
+            {
+              href: 'https://admin.alteam.io/',
+              label: 'Alteam - Freelancing platform (Admin App - Desktop)'
             },
             {
               href: 'https://solo-sixty.vercel.app/login',
-              label: 'SoloSixty - Wellness platform'
+              label: 'SoloSixty - Wellness platform (Desktop)'
             }
           ]}
         />
